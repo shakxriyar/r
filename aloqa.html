@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+      <nav class="navbar">
+        <a href="#" class="logo">Shahriyor<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="./index.html#home">Asosiy</a></li>
+            <li><a href="./index.html#about">Xizmatlar</a></li>
+            <li><a href="#projects">Loyihalarim</a></li>
+            <li><a href="./aloqa.html">Aloqa</a></li>
+        </ul>
+    </nav>
+<section id="contact" class="contact">
+    <h2 class="section-title reveal">Men bilan <span>Aloqa</span></h2>
+    
+    <div class="contact-container reveal">
+        <p>Loyihangizni birgalikda amalga oshiramiz! Menga xabar qoldiring.</p>
+        
+        <form class="contact-form-main" id="tgForm" onsubmit="sendToTelegram(event)">
+            <input type="text" id="userName" placeholder="Ismingiz" required>
+            <input type="tel" id="userPhone" placeholder="Telefon raqamingiz (masalan: +99890...)" required>
+            <textarea id="userMessage" placeholder="Xabaringizni yozing..." required></textarea>
+            
+            <button type="submit" class="btn primary full-width">
+                Yuborish <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+
+        <div class="social-links-minimal">
+    <a href="https://t.me/shaxriiyar" target="_blank" class="social-icon tg">
+        <i class="fa-brands fa-telegram"></i>
+    </a>
+    <a href="https://instagram.com/shakxriyarr" target="_blank" class="social-icon insta">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+</div>
+    </div>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
