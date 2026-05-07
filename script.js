@@ -65,7 +65,7 @@ async function sendToTelegram(event) {
     event.preventDefault(); // Sahifa yangilanib ketishini to'xtatadi
 
     // DIQQAT: O'zingizning bot tokeningiz va chat ID raqamingizni shu yerga yozing
-    const token = "8355674438:AAHeX0scFb1aaLplYxUE3cUSeCTh8VB_PUc"; 
+    const token = "8632545443:AAHTJOZsijXigu-hGll6eACNEtv3HNfIKa8"; 
     const chatId = "8030496668"; 
     
     const name = document.getElementById('userName').value;
